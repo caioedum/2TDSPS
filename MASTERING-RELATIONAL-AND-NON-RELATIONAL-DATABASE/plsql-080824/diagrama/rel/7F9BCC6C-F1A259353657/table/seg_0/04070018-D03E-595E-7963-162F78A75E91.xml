@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04070018-D03E-595E-7963-162F78A75E91" name="TB_BAIRRO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:26 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BAIRRO" id="026A0D9F-49FB-3398-9442-11BCCFDB76BA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:35:19 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_BAIRRO" id="1302BEA9-9770-C4C1-DA63-07D723ED8F27">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:35:19 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CIDADE_ID_CIDADE" id="59BB8A20-A9AF-9F86-39FE-EA754F75A137">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>3C8DB7DF-DCE3-E7DF-5390-235F0DE530E6</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AD21E02-72E1-45CF-3E4E-6784FCCDE033" referredColumn="D54D51AC-2189-7592-69D1-36C30B857B9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B901E8C-3B77-0BA5-2B0E-F2A82C8BB57F" name="TB_BAIRRO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:35:19 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026A0D9F-49FB-3398-9442-11BCCFDB76BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B81C7B0-A023-5F0C-0E85-A398AEBE391D" name="TB_BAIRRO_TB_CIDADE_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>8B479E2A-1E65-643E-3A00-750F8A9C62C9</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BB8A20-A9AF-9F86-39FE-EA754F75A137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

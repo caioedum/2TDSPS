@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="193069F4-AF8C-5DBC-B255-2B10F5DCFF4F" name="TB ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>BB171B4E-A5EC-7E86-F168-EF485D90CF5F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ENDERECO" id="51671006-39A3-4F2E-43CD-7B497172301D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>672FA661-EDCF-41F3-6173-BA454AB4EF5E</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGRADOURO" id="A37EFB25-0C47-05A9-BA9E-6BEA6ABBC1B5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>86F2263E-34C8-E24B-3E17-EE17E8A5FE97</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="81290647-3D33-01D6-552A-8F96CB5A64E5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>7E223B3E-E05F-820D-4459-C3F8AA008CBF</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPLEMENTO" id="9451BB79-48DC-478D-9441-F1F472FD003D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>A2354A05-E664-B178-5FF2-E5E630DFF4F2</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM ENDERECO" id="22E791E5-B990-EC38-F353-DCB9F5A2FDBB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>0C35B959-DE31-7700-74AA-2B043E0EFA59</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID BAIRRO" id="CA763F7F-F8B6-7DA7-5681-C1827F7F5F58">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:40:57 UTC</createdTime>
+<generatorID>E23A793F-E716-FA64-A0E1-20C4ABF5C79F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<referedAttribute>463578B8-6007-BFCD-F44D-FA7F839A1DCC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3831786-A29D-6AC2-D803-50FD6A24A7A8" name="TB ENDERECO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>DC81AE8C-A8B4-99A0-EA53-0773AE7CA425</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51671006-39A3-4F2E-43CD-7B497172301D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

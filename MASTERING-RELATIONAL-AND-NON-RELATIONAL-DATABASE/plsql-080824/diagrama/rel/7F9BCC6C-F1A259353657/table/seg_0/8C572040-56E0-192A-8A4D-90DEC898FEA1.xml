@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C572040-56E0-192A-8A4D-90DEC898FEA1" name="TB_CIDADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:35:36 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CIDADE" id="D54D51AC-2189-7592-69D1-36C30B857B9A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:36:58 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CIDADE" id="8E688607-FCDF-5039-7051-9962AA4D01F2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:36:58 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>NM_CIDADE</dataTypeSize>
+<ownDataTypeParameters>NM_CIDADE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ESTADO_ID_ESTADO" id="4CE0AC21-EFC0-FA9B-D082-602CD11015BE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>C9CD5C85-9F7F-B284-12EF-B7B53AA85E63</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B697DFE-4A55-5C22-D757-1F1F94DAC8B6" referredColumn="F865C1A9-5466-94D2-1404-6783C1043EFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90821494-FCED-870F-755A-F2280B653D19" name="TB_CIDADE_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:36:58 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D54D51AC-2189-7592-69D1-36C30B857B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01E12DF1-CE8A-7BAE-A310-5FEC00ACDDE6" name="TB_CIDADE_TB_ESTADO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>3CE33247-6298-5BEE-9C35-0E3953E3F94B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE0AC21-EFC0-FA9B-D082-602CD11015BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

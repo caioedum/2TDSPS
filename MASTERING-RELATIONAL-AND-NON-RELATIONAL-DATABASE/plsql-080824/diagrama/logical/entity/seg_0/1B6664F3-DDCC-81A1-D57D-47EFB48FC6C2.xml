@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B6664F3-DDCC-81A1-D57D-47EFB48FC6C2" name="TB CLIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>ADBFC940-6E9C-D9CE-C0D3-CEB7A3157360</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CLIENTE" id="68FBBD66-AF4C-373E-02E0-55084827B447">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>E91394C4-8AA8-0D5B-B084-951124091C80</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT NASC" id="9EF614A2-2D3E-ECA6-A04A-238BCF8B72DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>CD431477-A873-878F-ECCF-BF0C808C707D</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="2C3D7D99-4597-B411-A1C4-F9F5950D897A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>0EC3A016-16A1-F138-431B-5BA526BB902B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPFCNPJ" id="C9747D80-7CD4-FF2D-5D64-190C55950EB2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>2F2EE7F1-D255-D7F2-C0D4-0960FB05C8C4</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID GENERO" id="F19C0923-4908-5D45-DBC8-8A4DAA6EF53C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:40:15 UTC</createdTime>
+<generatorID>61D56DCA-2571-7B45-7F47-1F7371CCA32B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<referedAttribute>1200F639-4691-3E24-E91C-91A5F0046D42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TIPO" id="1CC41CC0-FF3D-340A-3093-CB509C82618F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:40:23 UTC</createdTime>
+<generatorID>860C8037-FD7C-A0EE-EFF9-40E5ADF7E32B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<referedAttribute>2B4C2C1D-8789-D3F3-049A-A905471411A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ENDERECO" id="D40B91B2-AAE2-DE02-3ED5-D1F3F63A42AE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:03 UTC</createdTime>
+<generatorID>E9FFA29E-884F-CDDE-1192-488CCD3C41C9</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<referedAttribute>51671006-39A3-4F2E-43CD-7B497172301D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CE27CC5-7DB9-3AFA-DFB3-361C0A7A3AFA" name="TB CLIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>EF1D51D2-16DD-1064-EA7E-CAAC90A267F7</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68FBBD66-AF4C-373E-02E0-55084827B447</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

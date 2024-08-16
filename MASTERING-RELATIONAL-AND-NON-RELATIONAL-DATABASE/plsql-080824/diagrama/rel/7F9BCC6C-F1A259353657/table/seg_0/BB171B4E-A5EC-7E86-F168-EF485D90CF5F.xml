@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB171B4E-A5EC-7E86-F168-EF485D90CF5F" name="TB_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:32:00 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO" id="672FA661-EDCF-41F3-6173-BA454AB4EF5E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGRADOURO" id="86F2263E-34C8-E24B-3E17-EE17E8A5FE97">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="7E223B3E-E05F-820D-4459-C3F8AA008CBF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPLEMENTO" id="A2354A05-E664-B178-5FF2-E5E630DFF4F2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ENDERECO" id="0C35B959-DE31-7700-74AA-2B043E0EFA59">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_BAIRRO_ID_BAIRRO" id="10D08263-624C-7AB3-F68D-F43675957F18">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>CA763F7F-F8B6-7DA7-5681-C1827F7F5F58</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="081CF555-0858-9AA3-947B-75E6CA94C26F" referredColumn="026A0D9F-49FB-3398-9442-11BCCFDB76BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC81AE8C-A8B4-99A0-EA53-0773AE7CA425" name="TB_ENDERECO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:34:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="672FA661-EDCF-41F3-6173-BA454AB4EF5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C979DC08-13E2-1B34-DC3B-C583A85BC607" name="TB_ENDERECO_TB_BAIRRO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>E23A793F-E716-FA64-A0E1-20C4ABF5C79F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D08263-624C-7AB3-F68D-F43675957F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

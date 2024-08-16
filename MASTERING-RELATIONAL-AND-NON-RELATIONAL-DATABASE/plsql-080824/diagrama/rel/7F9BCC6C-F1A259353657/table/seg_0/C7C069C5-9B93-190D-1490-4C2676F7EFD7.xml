@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7C069C5-9B93-190D-1490-4C2676F7EFD7" name="TB_ESTADO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:37:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO" id="F865C1A9-5466-94D2-1404-6783C1043EFD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:38:13 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ESTADO" id="87A9C5CF-FE5D-9B5F-8D39-572036D705AD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:38:13 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PAIS_ID_PAIS" id="9CC3DDBC-54EC-113D-5936-6D45451C2BB6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>90D828F0-1467-EE2F-378F-301C81AC77C8</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34E805F6-9433-B8B9-B4F3-584E874F67FD" referredColumn="11B7168E-C018-CC41-D886-1F27042FB94C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89339F13-6B31-D612-F2C3-3C5BB533B3FD" name="TB_ESTADO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:38:13 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F865C1A9-5466-94D2-1404-6783C1043EFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F38A7A06-B5F1-288A-445F-E9A01B4C7F47" name="TB_ESTADO_TB_PAIS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>F0861ECB-0C67-22DC-206A-76ACAE826C58</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC3DDBC-54EC-113D-5936-6D45451C2BB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE6502FC-AF4A-6273-06F4-05829D9CF3CF" name="TB BAIRRO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>04070018-D03E-595E-7963-162F78A75E91</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID BAIRRO" id="463578B8-6007-BFCD-F44D-FA7F839A1DCC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>026A0D9F-49FB-3398-9442-11BCCFDB76BA</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM BAIRRO" id="EC1CCE8E-315A-2FC2-97C7-A16293FAEF0B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>1302BEA9-9770-C4C1-DA63-07D723ED8F27</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIDADE" id="3C8DB7DF-DCE3-E7DF-5390-235F0DE530E6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:40:51 UTC</createdTime>
+<generatorID>8B479E2A-1E65-643E-3A00-750F8A9C62C9</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<referedAttribute>64EE78EB-F64E-5674-93AA-A2D987A8DDD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="575471D2-58F4-A659-C41D-B3D7A6BDE09D" name="TB BAIRRO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>9B901E8C-3B77-0BA5-2B0E-F2A82C8BB57F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>463578B8-6007-BFCD-F44D-FA7F839A1DCC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

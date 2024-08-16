@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADBFC940-6E9C-D9CE-C0D3-CEB7A3157360" name="TB_CLIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:26:13 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="E91394C4-8AA8-0D5B-B084-951124091C80">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:29:03 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASC" id="CD431477-A873-878F-ECCF-BF0C808C707D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:29:03 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="0EC3A016-16A1-F138-431B-5BA526BB902B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:29:03 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPFCNPJ" id="2F2EE7F1-D255-D7F2-C0D4-0960FB05C8C4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:29:03 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_GENERO_ID_GENERO" id="E621C854-8AC0-D093-8833-7DCFAB73C34C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>F19C0923-4908-5D45-DBC8-8A4DAA6EF53C</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06AC997E-ABA3-5EAC-787B-8FABC3B21DE9" referredColumn="145B220F-C060-5268-03AC-DBCF53348100"/>
+</associations>
+</Column>
+<Column name="TB_TIPO_ID_TIPO" id="1162794A-8300-8926-7758-81EB740BAAFA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>1CC41CC0-FF3D-340A-3093-CB509C82618F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71D3D591-6D84-7979-882B-B27EDA65B161" referredColumn="239A944B-815F-5EA2-7FB7-22710EF1A3E1"/>
+</associations>
+</Column>
+<Column name="TB_ENDERECO_ID_ENDERECO" id="5E8F20F1-DF4E-7D3A-9CDC-C2EEB6CFA10F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>D40B91B2-AAE2-DE02-3ED5-D1F3F63A42AE</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD1F3F9E-B2B3-525A-7EC2-D1B65C324137" referredColumn="672FA661-EDCF-41F3-6173-BA454AB4EF5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF1D51D2-16DD-1064-EA7E-CAAC90A267F7" name="TB_CLIENTE_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:29:03 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E91394C4-8AA8-0D5B-B084-951124091C80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5196B60-4F14-E55A-3F56-942C56958E4C" name="TB_CLIENTE_TB_GENERO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>61D56DCA-2571-7B45-7F47-1F7371CCA32B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E621C854-8AC0-D093-8833-7DCFAB73C34C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9CC9B0B-06ED-C1C9-A83F-01F683CBBB31" name="TB_CLIENTE_TB_TIPO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>860C8037-FD7C-A0EE-EFF9-40E5ADF7E32B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1162794A-8300-8926-7758-81EB740BAAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3468CB58-A6F3-7D31-B176-8094F1E90560" name="TB_CLIENTE_TB_ENDERECO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:41:22 UTC</createdTime>
+<generatorID>E9FFA29E-884F-CDDE-1192-488CCD3C41C9</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E8F20F1-DF4E-7D3A-9CDC-C2EEB6CFA10F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

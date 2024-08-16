@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1245E76-98D1-96BC-36E6-20903D0040DA" name="TB ESTADO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>C7C069C5-9B93-190D-1490-4C2676F7EFD7</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ESTADO" id="1B6B2491-298B-B5F0-3F37-7BEE7EC73D25">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>F865C1A9-5466-94D2-1404-6783C1043EFD</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM ESTADO" id="DDF35591-C3F1-42F6-EE6E-7C566D12C49A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>87A9C5CF-FE5D-9B5F-8D39-572036D705AD</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PAIS" id="90D828F0-1467-EE2F-378F-301C81AC77C8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:40:38 UTC</createdTime>
+<generatorID>F0861ECB-0C67-22DC-206A-76ACAE826C58</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<referedAttribute>6C5C97FE-E589-BECA-B0CF-7EF1479AFBAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21B7217A-FF34-8AF5-B158-7D6E43E51F51" name="TB ESTADO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>89339F13-6B31-D612-F2C3-3C5BB533B3FD</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B6B2491-298B-B5F0-3F37-7BEE7EC73D25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

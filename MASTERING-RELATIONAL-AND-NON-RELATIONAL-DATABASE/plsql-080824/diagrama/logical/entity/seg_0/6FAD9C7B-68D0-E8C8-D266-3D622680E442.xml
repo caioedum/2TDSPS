@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FAD9C7B-68D0-E8C8-D266-3D622680E442" name="TB TIPO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>C2CFFC0A-6BEE-2C27-6F8D-283AE1F8BECF</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TIPO" id="2B4C2C1D-8789-D3F3-049A-A905471411A8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>239A944B-815F-5EA2-7FB7-22710EF1A3E1</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM TIPO" id="2FCB41AF-BB3F-E4CE-2B2A-2BA492A34F97">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>C9FCA071-C045-26CC-20B5-1260BE4EE300</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B18E6A5-CF8B-906F-A04E-4BAB3C736E82" name="TB TIPO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:39:58 UTC</createdTime>
+<generatorID>D2E52533-F98D-8E31-E8F4-3C3AADCDDE6A</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7F9BCC6C-F404-562F-D150-F1A259353657" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B4C2C1D-8789-D3F3-049A-A905471411A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

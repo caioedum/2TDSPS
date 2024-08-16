@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2CFFC0A-6BEE-2C27-6F8D-283AE1F8BECF" name="TB_TIPO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:29:53 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO" id="239A944B-815F-5EA2-7FB7-22710EF1A3E1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:30:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TIPO" id="C9FCA071-C045-26CC-20B5-1260BE4EE300">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:30:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2E52533-F98D-8E31-E8F4-3C3AADCDDE6A" name="TB_TIPO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-08-08 23:30:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239A944B-815F-5EA2-7FB7-22710EF1A3E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
