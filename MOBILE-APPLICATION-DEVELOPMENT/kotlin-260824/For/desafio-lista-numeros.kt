@@ -14,5 +14,5 @@ fun main() {
         soma += numero
     }
 
-    println("A lista de números é $listaNumeros e a $soma de tudo é $soma")
+    println("A lista de números é $listaNumeros e a soma é $soma")
 }
